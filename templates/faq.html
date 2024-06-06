@@ -1,0 +1,62 @@
+{% extends "index.html" %}
+{% load static %}
+
+{% block body %}
+
+<div class="perguntatitulo">
+  <h1>Suporte ao Usuario</h1>
+  <p>Entre em contato conosco</p>
+  <h2>Perguntas Frequentes</h2>
+</div>
+<div class="accordion">
+  <div class="accordion-item">
+      <input type="checkbox" id="accordion1">
+      <label for="accordion1" class="accordion-item-title"><span class="icon"></span>Está com demora no agendamento de salas?</label>
+      <div class="accordion-item-desc">A requisição de um professor para agendar uma sala é enviada em tempo real para a secretaria aprovar, no caso de demora, entre em contato com a secretaria pelo número de telefone.</div>
+  </div>
+
+  <div class="accordion-item">
+      <input type="checkbox" id="accordion2">
+      <label for="accordion2" class="accordion-item-title"><span class="icon"></span>Aonde ver os seus agendamentos de salas?</label>
+      <div class="accordion-item-desc">Ao acessar a aba "Perfil" você terá acesso a todas as salas agendadas, se ouver necessidade, poderá ver os detalhes das salas.</div>
+  </div>
+
+  <div class="accordion-item">
+      <input type="checkbox" id="accordion3">
+      <label for="accordion3" class="accordion-item-title"><span class="icon"></span>Um agendamento meu foi cancelado, oque fazer?</label>
+      <div class="accordion-item-desc">Um agendamento só pode ser cancelado por um coordernador, para a resolução de conflitos, entre em contato com o mesmo.</div>
+  </div>
+
+  <div class="accordion-item">
+      <input type="checkbox" id="accordion4">
+      <label for="accordion4" class="accordion-item-title"><span class="icon"></span>Outra Pergunta</label>
+      <div class="accordion-item-desc">Resposta dnv.</div>
+  </div>
+
+  <div class="accordion-item">
+      <input type="checkbox" id="accordion5">
+      <label for="accordion5" class="accordion-item-title"><span class="icon"></span>Outra pergunta</label>
+      <div class="accordion-item-desc">resposta</div>
+  </div>
+</div>
+
+<div class="red-squarefaqzao">
+    <div class="form-containerfaqzao">
+        <h1>Ainda com Problema?</h1>
+        <p>Entre em contato conosco</p>
+        <form>
+            <div class="form-rowfaqzao">
+                <input class="form-control" type="search" placeholder="your problem" aria-label="Search">
+                <button class="btn" type="submit">Submit</button>
+            </div>
+         
+                <input class="form-control" type="tel" placeholder="Telefone">
+                <input class="form-control" type="tel" placeholder="Telefone">
+                <input class="form-control" type="tel" placeholder="Telefone">
+         
+
+        </form>
+    </div>
+</div>
+
+{% endblock %}

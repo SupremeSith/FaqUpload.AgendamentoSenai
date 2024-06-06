@@ -1,0 +1,158 @@
+{% extends "index.html" %}
+{% load static %}
+
+
+{% block body %}
+
+<div class="container centered">
+  <header class="perfil">
+    <img src="https://avatars.githubusercontent.com/u/36140205?v=4" alt="Carlos Ribeiro">
+    <div class="title">
+      <h1>Carlos Ribeiro</h1>
+      <h3>Software Developer</h3>
+    </div>
+  </header>
+
+  <main class="projetos">
+    <div class="container-projetos">
+      <!-- na parte do nome coloca a variavel do usuario {{nome}} -->
+      <h4>Agendamentos de Carlos</h4>
+      <div class="cards-grid">
+
+
+
+        <!-- Primeiro Card -->
+        <div class="card">
+          <div class="card-body">
+
+            <!-- chama a sala por variavel tbm  -->
+            <h5 class="card-title">Sala C13</h5>
+
+            <!-- infos rapidas da sala -->
+            <p class="card-text">
+              - 40 Notebooks <br>
+              - Lousa branca <br>
+              - Projetor <br>
+            </p>
+            <div class="card-status">
+
+
+              <!-- aql leva para a pagina com os detalhes certinhos da do agendamento, hora, corredor e dia -->
+              <span class="status">Detalhes</span>
+            </div>
+          </div>
+          <div class="card-footer">
+            <div class="activateounao">
+              Agendada
+            </div>
+          </div>
+        </div>
+
+
+
+        <!-- Segundo só de exemplo -->
+
+        <div class="card">
+          <div class="card-body">
+
+            <!-- chama a sala por variavel tbm  -->
+            <h5 class="card-title">Sala C9</h5>
+
+            <!-- infos rapidas da sala -->
+            <p class="card-text">
+              - 30 Computadores <br>
+              - Lousa branca <br>
+              - Projetor <br>
+            </p>
+            <div class="card-status">
+
+
+              <!-- aql leva para a pagina com os detalhes certinhos da do agendamento, hora, corredor e dia -->
+              <span class="status">Detalhes</span>
+            </div>
+          </div>
+          <div class="card-footer">
+            <div class="activateounao">
+              Agendada
+            </div>
+          </div>
+        </div>
+
+
+
+
+        <!-- Terceiro só de exemplo tbm bb -->
+
+        <div class="card">
+          <div class="card-body">
+
+            <!-- chama a sala por variavel tbm  -->
+            <h5 class="card-title">Auditório</h5>
+
+            <!-- infos rapidas da sala -->
+            <p class="card-text">
+              - 100 Cadeiras Individuais <br>
+              - Projetor <br>
+              - Palco <br>
+              - Microfone <br>
+              - Caixa de Som <br>
+            </p>
+            <div class="card-status">
+
+
+              <!-- aql leva para a pagina com os detalhes certinhos da do agendamento, hora, corredor e dia -->
+              <span class="status">Detalhes</span>
+            </div>
+          </div>
+          <div class="card-footer">
+            <div class="activateounao">
+              Agendada
+            </div>
+          </div>
+        </div>
+
+
+
+
+        <!-- Quartooo só de exemplo -->
+
+        <div class="card">
+          <div class="card-body">
+
+            <!-- chama a sala por variavel tbm  -->
+            <h5 class="card-title">Elétrica 2</h5>
+
+            <!-- infos rapidas da sala -->
+            <p class="card-text">
+              - 20 Computadores <br>
+              - Lousa branca <br>
+              - Projetor <br>
+              - 20 Mesas de Duplas <br>
+              - 1 Motor por Mesa <br>
+            </p>
+            <div class="card-status">
+
+
+              <!-- aql leva para a pagina com os detalhes certinhos da do agendamento, hora, corredor e dia -->
+              <span class="status">Detalhes</span>
+            </div>
+          </div>
+          <div class="card-footer">
+            <div class="activateounao">
+              Agendada
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+
+      </div>
+    </div>
+  </main>
+</div>
+
+
+{% endblock %}
